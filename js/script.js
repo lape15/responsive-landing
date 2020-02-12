@@ -29,6 +29,8 @@ function checkEmail() {
   const emailValue = email.value.trim();
   if (emailValue === "") {
     setError(email);
+    p.innerText = "Email cannot be empty";
+    p.style.color = "red";
   } else if (!isEmail(emailValue)) {
     p.innerText = "Invalid email";
     p.style.color = "red";
