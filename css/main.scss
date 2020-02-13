@@ -551,7 +551,7 @@ body {
       img {
         position: absolute;
         top: -3vh;
-        left: 18vh;
+        left: 19.5vh;
         width: 90px;
         @include ipad() {
           position: absolute;
@@ -628,8 +628,9 @@ body {
         img {
           position: absolute;
           top: -3vh;
-          left: 25vh;
+          left: 29vh;
           width: 70px;
+          // border: 2px solid red;
         }
 
         h6 {
