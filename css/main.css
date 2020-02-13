@@ -87,7 +87,7 @@ body {
   .navi .nav-container a {
     display: inline;
     text-decoration: none;
-    font-size: 0.7rem;
+    font-size: 1rem;
     color: #1d1e25;
     line-height: 0;
     font-weight: bold;
@@ -239,7 +239,8 @@ body {
   font-weight: 600;
   padding: 2px;
   margin-left: 0;
-  font-size: 20px; }
+  font-size: 20px;
+  text-align: right; }
 
 .midi .mid1-con2 .art-1 p {
   font-size: 16px;
@@ -269,7 +270,8 @@ body {
   font-weight: 600;
   padding: 2px;
   margin-left: 0;
-  font-size: 20px; }
+  font-size: 20px;
+  text-align: right; }
 
 .midi .mid1-con2 .art-2 p {
   font-size: 16px;
@@ -299,7 +301,8 @@ body {
   font-weight: 600;
   padding: 2px;
   margin-left: 0;
-  font-size: 20px; }
+  font-size: 20px;
+  text-align: right; }
 
 .midi .mid1-con2 .art-3 p {
   font-size: 16px;
@@ -416,7 +419,7 @@ body {
 .mid2 .slider .active img {
   position: absolute;
   top: -3vh;
-  left: 21vh;
+  left: 18vh;
   width: 90px; }
 
 @media (min-width: 768px) {
@@ -454,11 +457,11 @@ body {
 .mid2 .start button {
   border: none;
   background-color: #fb652f;
-  width: 50%;
-  padding: 17px;
+  width: 30%;
+  padding: 10px;
   border-radius: 35px;
   color: white;
-  margin-bottom: 5px; }
+  margin-bottom: 15px; }
 
 @media (min-width: 801px) {
   .mid2 {

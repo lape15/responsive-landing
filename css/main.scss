@@ -145,7 +145,7 @@ body {
       a {
         display: inline;
         text-decoration: none;
-        font-size: 0.7rem;
+        font-size: 1rem;
         color: color(dark-blue);
         line-height: 0;
         font-weight: bold;
@@ -326,6 +326,8 @@ body {
           padding: 2px;
           margin-left: 0;
           font-size: 20px;
+          text-align: right;
+          // border: 1px solid red;
         }
       }
       p {
@@ -356,6 +358,8 @@ body {
           padding: 2px;
           margin-left: 0;
           font-size: 20px;
+          text-align: right;
+          // border: 1px solid red;
         }
       }
       p {
@@ -386,6 +390,8 @@ body {
           padding: 2px;
           margin-left: 0;
           font-size: 20px;
+          text-align: right;
+          // border: 1px solid red;
         }
       }
       p {
@@ -545,7 +551,7 @@ body {
       img {
         position: absolute;
         top: -3vh;
-        left: 21vh;
+        left: 18vh;
         width: 90px;
         @include ipad() {
           position: absolute;
@@ -591,11 +597,11 @@ body {
     button {
       border: none;
       background-color: color(burnt-orange);
-      width: 50%;
-      padding: 17px;
+      width: 30%;
+      padding: 10px;
       border-radius: 35px;
       color: white;
-      margin-bottom: 5px;
+      margin-bottom: 15px;
     }
   }
 
