@@ -2,8 +2,8 @@ const toggler = document.querySelector(".nav-toggler");
 const form = document.getElementById("form");
 const email = document.getElementById("email");
 const p = document.querySelector("#p");
-console.log(email);
-console.log(form);
+// console.log(email);
+// console.log(form);
 toggler.addEventListener("click", () => {
   let tog = document.querySelector(".hidden");
   if (tog.style.display === "block") {
@@ -25,7 +25,7 @@ function inIt() {
 }
 
 function checkEmail() {
-  console.log(email);
+  // console.log(email);
   const emailValue = email.value.trim();
   if (emailValue === "") {
     setError(email);

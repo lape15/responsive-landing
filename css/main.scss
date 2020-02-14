@@ -70,6 +70,10 @@ body {
   position: relative;
   background-image: url("../images/bg-tablet-pattern.svg");
   background-repeat: no-repeat;
+  position: fixed;
+  top: 0;
+  width: 90%;
+  z-index: 1;
 
   // background-position: left;
   background-color: white;
@@ -122,6 +126,7 @@ body {
     // border: 2px solid green;
     background-color: color(white);
     padding: 2%;
+    position: static;
 
     .nav-svg {
       grid-column: 1/3;
